@@ -1,0 +1,45 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body{
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width:2600px;
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+} 
+
+.header {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.form-container {
+  margin-top: 20px; 
+}
+
+
+.status-cell {
+  font-weight: bold;
+
+
+}
+
+.status-price {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.status-in-progress {
+  font-weight: bold;
+  background-color: red;
+}
